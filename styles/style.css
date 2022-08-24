@@ -276,11 +276,6 @@ flex-basis: 711px;
   display: flex;
   justify-content: space-between;
 }
-.footer__column_heading{
-  margin: 0;
-  padding: 0;
-
-}
 .footer__column_content_copyright{
   flex-basis: 711px;
   display: flex;
@@ -292,9 +287,7 @@ flex-basis: 711px;
   height: 32px;
 }
 .footer__author{
-  padding: 15px 0 15px 0;
   margin: 18px 0;
-  padding: 0;
   color: white;
   line-height: 25px;
   font-size: 18px;
@@ -306,6 +299,7 @@ flex-basis: 711px;
   font-size: 18px;
   font-weight: 600;
   color:white;
+  margin: 0;
 }
 .footer__column_links{
   display: flex;
@@ -320,10 +314,6 @@ flex-basis: 711px;
   font-weight: normal;
   color:white;
   text-decoration: none;
-}
-.logo__place_footer{
-  width: 183px;
-  height: 35px;
 }
 .footer__social-icon{
   width: 16px;
