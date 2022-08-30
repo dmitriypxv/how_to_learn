@@ -39,6 +39,9 @@
   left: 64px;
   line-height: 25px;
   font-size: 18px;
+  margin-top: 0;
+  margin-bottom: 0;
+  z-index: 3;
 }
 .header__main-illustration{
   width: 765px;
@@ -93,9 +96,8 @@
   font-size: 18px;
   font-style: normal;
   color: #2f80ed;
-  height: max-content;
   margin: 0;
-
+  font-weight: 500;
 }
 .two-columns__main-text{
   width: 80%;
@@ -152,7 +154,7 @@
   width:250px;
   margin-top: 60px;
   list-style: none;
-  box-sizing: border-box;
+
 }
 .table__heading{
   line-height: 1.15;
@@ -205,7 +207,7 @@
   font-style: normal;
   color:#2f80ed;
   text-decoration: none;
-  margin: 70px 0 0 0;
+  margin: 0;
 }
 .kaufman{
   display: flex;
@@ -220,18 +222,17 @@
 .section-title_theme_dark{
   width: 60%;
   margin: 0 0 20px 0;
-
-  line-height: 1.15;
   font-size: 60px;
   font-weight: 600;
   color: white;
+  z-index: 1;
 }
 .section-subtitle_theme_dark{
   width: 60%;
   padding-top: 20px;
   margin: 0;
   padding: 0;
-
+  z-index: 1;
   line-height: 34px;
   font-size: 24px;
   font-style: normal;
