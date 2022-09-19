@@ -8,5 +8,5 @@
   z-index: 2;
   background-size: cover;
   background-image:url(../../../images/header-image.png);
-
+  object-fit: contain;
 }

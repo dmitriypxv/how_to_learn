@@ -18,7 +18,7 @@
       <p class="header__subtitle">Какие современные и эффективные подходы к обучению вы можете использовать в своей
         жизни? <a class="header__link" href="#">Узнать →</a></p>
       <div class="header__main-illustration"></div>
-      <div class="header__square-pic"></div>
+      <div class="header__square-pic rotation"></div>
     </header>
 
     <main class="content">
@@ -43,29 +43,30 @@
         <p class="section-subtitle">Пять практик от Барбары Оакли</p>
         <div class="cards">
           <div class="cards__item">
-            <img class="cards__image" src="./images/cards-attention.png" alt="">
+            <img class="cards__image" src="./images/cards-attention.png" alt="Картинка с книгой">
             <h3 class="cards__title">Два вида внимания</h3>
             <p class="cards__description">Глубокие знания возникают, если чередовать сфокусированное и рассеянное
               мышление.</p>
           </div>
           <div class="cards__item">
-            <img class="cards__image" src="./images/cards-recall.png" alt="">
+            <img class="cards__image" src="./images/cards-recall.png" alt="Картинка задумчивой статуи">
             <h3 class="cards__title">Recall</h3>
             <p class="cards__description">Вспоминайте изученное — это позволит соединить разрозненные порции памяти.</p>
           </div>
           <div class="cards__item">
-            <img class="cards__image" src="./images/cards-interliving.png" alt="">
+            <img class="cards__image" src="./images/cards-interliving.png" alt="Картинка огромного пространства">
             <h3 class="cards__title">Интерливинг</h3>
             <p class="cards__description">Изучайте несколько навыков одновременно, они обогащают друг друга.</p>
           </div>
           <div class="cards__item">
-            <img class="cards__image" src="./images/cards-question.png" alt="">
+            <img class="cards__image" src="./images/cards-question.png"
+              alt="Картинка задумчивого человека внутри двора-колодца">
             <h3 class="cards__title">Вопросы</h3>
             <p class="cards__description">Слушая преподавателя, придумывайте хороший вопрос, который вас действительно
               волнует.</p>
           </div>
           <div class="cards__item">
-            <img class="cards__image" src="./images/cards-competence.png" alt="">
+            <img class="cards__image" src="./images/cards-competence.png" alt="Картинка руки с книгами">
             <h3 class="cards__title">Иллюзия компетентности</h3>
             <p class="cards__description">Повторите про себя, запишите, расскажите другу: вам только кажется, что вы
               владеете новой темой.</p>
@@ -77,10 +78,8 @@
         <h2 class="section-title">Видео нa TED</h2>
         <p class="section-subtitle">Для тех, кто любит прокрастинировать</p>
         <div class="video__iframes">
-          <iframe class="video__iframe" src="https://www.youtube.com/embed/arj7oStGLkU" height="316" width="515"
-            allowfullscreen></iframe>
-          <iframe class="video__iframe" src="https://www.youtube.com/embed/5MgBikgcWnY" height="316" width="515"
-            allowfullscreen></iframe>
+          <iframe class="video__iframe" src="https://www.youtube.com/embed/arj7oStGLkU" allowfullscreen></iframe>
+          <iframe class="video__iframe" src="https://www.youtube.com/embed/5MgBikgcWnY" allowfullscreen></iframe>
         </div>
       </section>
 
@@ -207,7 +206,7 @@
             <p class="table__text table__text_theme_dark">Уделяйте внимание количеству и скорости.</p>
           </li>
         </ol>
-        <div class="kaufman__triangle"></div>
+        <div class="kaufman__triangle rotation"></div>
       </section>
 
       <section class="resourses">
@@ -231,25 +230,29 @@
           <img class="logo logo_place_footer" src="./images/logo_place_footer.svg" alt="Яндекс Практикум">
           <p class="footer__author">Петухов Дмитрий &copy;</p>
         </div>
-        <nav class="footer__column footer__column_content_info">
+        <div class="footer__column footer__column_content_info">
           <h3 class="footer__column-heading">О Практикуме</h3>
-          <ul class="footer__column-links">
-            <li><a class="footer__column-link" href="#">Главная</a></li>
-            <li><a class="footer__column-link" href="#">Концепция</a></li>
-            <li><a class="footer__column-link" href="#">Наставники</a></li>
-          </ul>
-        </nav>
-        <nav class="footer__column footer__column_content_social">
+          <nav class="footer__column-links">
+            <ul class="footer__column-links">
+              <li><a class="footer__column-link" href="#">Главная</a></li>
+              <li><a class="footer__column-link" href="#">Концепция</a></li>
+              <li><a class="footer__column-link" href="#">Наставники</a></li>
+            </ul>
+          </nav>
+        </div>
+        <div class="footer__column footer__column_content_social">
           <h3 class="footer__column-heading">Соцсети</h3>
-          <ul class="footer__column-links">
-            <li><a class="footer__column-link" href="https://ru-ru.facebook.com/"><img class="footer__social-icon"
-                  src="images/facebook_color_white.svg" alt="Фейсбук">Facebook</a></li>
-            <li><a class="footer__column-link" href="https://vk.com"><img class="footer__social-icon"
-                  src="images/vk_color_white.svg" alt="ВКонтакте">ВКонтакте</a></li>
-            <li><a class="footer__column-link" href="https://www.instagram.com/"><img class="footer__social-icon"
-                  src="images/instagram_color_white.svg" alt="Инстаграм">Instagram</a></li>
-          </ul>
-        </nav>
+          <nav class="footer__column-links">
+            <ul class="footer__column-links">
+              <li><a class="footer__column-link" href="https://ru-ru.facebook.com/"><img class="footer__social-icon"
+                    src="images/facebook_color_white.svg" alt="Фейсбук">Facebook</a></li>
+              <li><a class="footer__column-link" href="https://vk.com"><img class="footer__social-icon"
+                    src="images/vk_color_white.svg" alt="ВКонтакте">ВКонтакте</a></li>
+              <li><a class="footer__column-link" href="https://www.instagram.com/"><img class="footer__social-icon"
+                    src="images/instagram_color_white.svg" alt="Инстаграм">Instagram</a></li>
+            </ul>
+          </nav>
+        </div>
       </div>
     </footer>
   </div>
